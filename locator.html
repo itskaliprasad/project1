@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locator</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <link rel="stylesheet" type="text/css" href="locator.css">
+ <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+<body>
+
+<section>
+ <h1>Nearest e-waste centre locator</h1>
+ <div class="centerDiv">
+  <div class="details">
+   <label>Enter your city name:</label><br>
+   <input type="text" name="" id="nameid">
+  </div>
+
+  <div class="imgdiv">
+   <img src="https://media.istockphoto.com/id/1421460958/photo/hand-of-young-woman-searching-location-in-map-online-on-smartphone.webp?b=1&s=170667a&w=0&k=20&c=D2BB09tURV2KX7wtd8FrhIBXYNGgHTT2aLOvn-Zrp-E=" width="200" height="200" class="imgchange">
+  </div>
+
+  <button> Click Me</button>
+  
+ </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script>
+ $(document).ready(function(){
+  $('button').click(function(){
+   const name = $('#nameid').val();
+   alert(name);
+   $('.imgchange').attr('src',https://joeschmoe.io/api/v1/${name});
+   const b = $('.imgchange');
+   console.log(b);
+
+  });
+ });
+</script>
+
+</body>
+</html>
+</body>
+</html>
